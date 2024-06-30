@@ -1,8 +1,3 @@
----
-title: '[筆記]單元測試的藝術ch.2 - 第一個單元測試(上)'
-
----
-
 # [筆記]單元測試的藝術ch.2 - 第一個單元測試
 
 :::info 
@@ -52,7 +47,7 @@ public class LogAnalyzer
 {
     public bool IsValidLogFileName(string fileName)
     {
-        if(fileName.EndsWith(".SLF")) //判斷
+        if(fileName.EndsWith(".SLF")) //這裡埋了一個bug，filename前面要加"!"才對
         {
             return false;
         }
