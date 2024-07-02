@@ -1,4 +1,4 @@
-# [筆記]單元測試的藝術ch.2 - 第一個單元測試
+# [筆記]單元測試的藝術ch.2 - 第一個單元測試(上)
 
 :::info 
 :bulb: 以前製作的2-3個side project，都是以Web Form的UI介面進行測試，甚至偏向整合測試，希望自己在程式設計上能更完善，所以讀了《單元測試的藝術》第二版，並做了筆記。
@@ -70,7 +70,7 @@ public class LogAnalyzer
 public class LogAnalyzerTests
 {
     [Test]
-    public void IsValidFileName_BadExtension_ReturnsFalse()
+    public void IsValidLogFileName_BadExtension_ReturnsFalse()
     {
     
     }
@@ -87,7 +87,7 @@ public class LogAnalyzerTests
 
 ```
 [Test]
-public void IsValidFileName_BadExtension_ReturnsFalse()
+public void IsValidLogFileName_BadExtension_ReturnsFalse()
 {
     // Arrange
     LogAnalyzer analyzer = new LogAnalyzer();
