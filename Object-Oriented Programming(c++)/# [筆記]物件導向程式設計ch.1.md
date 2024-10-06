@@ -130,12 +130,21 @@ while (i < 5){
 2.定義
 3.呼叫
 ```
+//宣告
 double totalCost(int num,double price);
+//定義
 double totalCost(int num,double price){
     return (num*price*1.05)
 }
-totalCost(8,9.5);
+//呼叫
+totalCost(8,9.5); 
 ```
+
+
+| double | totalCost | int num,double price |
+| -------- | -------- | -------- |
+| 回傳型態     | 函式名稱     | 參數     |
+
 (二)inline function
 加上inline讓函式可以在每次被呼叫時，不用重新連結(link)。效果就是只要看到area這個函式，就用return(len*wid)替代掉。通常用於一兩行可以結束的程式。
 ```
