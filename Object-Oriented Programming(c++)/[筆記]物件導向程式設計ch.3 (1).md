@@ -11,7 +11,7 @@ tags: [物件導向程式設計]
 
 ## :+1: 章節重點
 
-### :small_blue_diamond: 類別相關概念_memory function
+### :small_blue_diamond: 類別的基本概念_data member、member function
 
 
 ## 🖊️ 類別
@@ -51,8 +51,8 @@ class AirTicket {
 
 
 
-(三)Memory function
-Class失去memory functions，跟struct幾乎一模一樣，差別在struct針對成員的預設存取權限是public，class的預設值是private。
+(三)member function
+Class失去member functions，跟struct幾乎一模一樣，差別在struct針對成員的預設存取權限是public，class的預設值是private。
 
 1.把宣告和實體分開
 這麼做的好處在於可以隱藏資訊和保護財產權，尤其是對軟體vendor來說。
@@ -160,5 +160,5 @@ rstu.computerAverage();
 
 
 ## 📖 下一章節主題預告
-類別相關概念_friend function
+類別的進階討論_this指標、修飾字、friend function
 
