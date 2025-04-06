@@ -32,7 +32,7 @@ Original file is located at
 #填寫acess token
 
 from huggingface_hub import login
-login("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")
+login("hf_00000")
 #######################################################################
 
 """## Download the model
